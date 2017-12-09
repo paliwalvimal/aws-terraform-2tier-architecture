@@ -22,7 +22,7 @@ variable "aws_region" {
   default = "ap-south-1"  #Select appropriate region from the above list
 }
 variable "aws_profile" {
-  default = "temp"
+  default = "default"
 }
 variable "instance_type" {
   default = "t2.micro"  #Provide appropriate instance type supported by the region
