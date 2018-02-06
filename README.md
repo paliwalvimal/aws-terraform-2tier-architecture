@@ -1,5 +1,5 @@
 # aws-terraform-2tier-architecture
-Spin up a 2-tier infrastructure on AWS Cloud using terraform script within few minutes.
+Spin up a 2-tier infrastructure on AWS Cloud using this terraform script within few minutes.
 
 <strong>Prerequisites:</strong>
 <ul>
@@ -24,14 +24,14 @@ Spin up a 2-tier infrastructure on AWS Cloud using terraform script within few m
   <li>Download all the files leaving .gitignore and README.md files. <strong>Note: You must generate your own private & public key</strong></li>
   <li>Open terminal(linux)/command prompt(windows)</li>
   <li>Run <code>terraform init</code> command</li>
-  <li>Run <code>terraform apply</code> command. Provide <strong>yes</strong> as input if asked and hit enter to start the process</li>
+  <li>Run <code>terraform apply</code> command. Provide <strong>yes</strong> as input when asked and hit enter</li>
 </ul>
 
 <h2><strong>Hurray!! Your infrastructure is now ready.</strong></h2>
 
 <p>3. Let's Test the Infrastructure:</p>
 <ul>
-  <li>Go to EC2 dashboard and grad dns name of load balancer by going to Load Balancer section</li>
-  <li>Enter the dns name in your browser's URL bar and hot enter</li>
+  <li>Go to EC2 dashboard and click on Load Balancer in the left pane and grab the dns name of your load balancer</li>
+  <li>Paste the dns name in your browser's URL bar and hit enter</li>
   <li>You should now see a "Hello World" meesage</li>
 </ul>
