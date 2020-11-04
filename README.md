@@ -1,6 +1,8 @@
 # aws-terraform-2tier-architecture
 Spin up a 2-tier infrastructure on AWS Cloud using this terraform script within few minutes.
 
+### !!! This repository is deprecated. Please visit github.com/terrablocks for up to date terraform modules !!!
+
 <strong>Prerequisites:</strong>
 <ul>
   <li>AWS Account</li>
